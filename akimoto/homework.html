@@ -1,4 +1,3 @@
-<!-- コメント -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -10,14 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="homework.css">
 </head>
 <body>
-	<div class="container">
-		<header class="header">
-			<span class="name"> MOENI SHOP </span>
-	  <div class="search">
-		<form id="form5" action="自分のサイトのURL">
-          <input id="sbox5"  id="s" name="s" type="text" placeholder="何をお探しですか？" />
-          <input id="sbtn5" type="submit" value="search" />
-　　　　　</form>
+		<header>
+			<h1> MOENI SHOP </h1>
 	  </div>
 		  <ul class="header-right">
 		  	<!--twitter-->
@@ -35,17 +28,17 @@
 		  </ul>
 		 </header>
 		<div class="cleafix"> 
-		  <div class="sidebar">
-		    <p>♡NEWS</p>
-		  	<p>♡TRENDING</p>
-		  	<p>♡WEEKLY</p>
-		  	<p>♡ITEM</p>
-		  	</div>
-		  <main class="main"></main>
+			<nav>
+				<p>♡NEWS</p>
+				<p>♡TRENDING</p>
+				<p>♡WEEKLY</p>
+				<p>♡ITEM</p>
+			</nav>
+		<center class="main">
+		</center>
 		 </div>
 		 <!-- カリキュラム -->
-		 <main class="curriculum">
-		 	<ul class="img-box">
+		 <ul class="img-box">
 		 		<li>
 		 			<img src="IMG_2593.JPG">
 		 			<span>Pants</span>
@@ -58,31 +51,36 @@
 		 			<img src="IMG_2592.JPG">
 		 			<span>Dry flower</span>
 		 		</li>
-		 	</ul>
-		 </main>
-		 <!-- contact us -->
-		 <aside>
-		 	<p class="contact-us">contact us</p>
-			<form>
-				<div class="form">
-					<div class="form-left">
-						<div class="form-group">
-							<label class="label"></label>
-							<input type="text" name="" class="input-field" placeholder="name">
-						</div>
-						<div class="form-group">
-						<label class="label"></label>
-						<input type="text" name="" class="input-field" placeholder="e-mail">
-						</div>
-					</div>
-					<div class="form-right">
-						<label class="label"></label>
-						<input type="text" name="" class="input-field-2" placeholder="お問い合わせ">
-					</div>
-				</div>
-				<button type="submit" class="button">push</button>
-			</form>
-		 </aside>
+		 </ul>
+
+  <!-- contact us -->
+  <aside class="contact">
+    <h2 class="subtitle">Contact us</h2>
+    <!-- form -->
+    <form>
+      <div class="form">
+    <!-- 左側 -->
+        <div class="form-left">
+          <fieldset>
+            <input type="text" class="name" placeholder="お名前">
+          </fieldset>
+          <fieldset>
+            <input type="email" class="email" placeholder="email">
+          </fieldset>
+        </div>
+        <!-- 右側 -->
+        <div class="form-right">
+          <fieldset>
+            <textarea class="inquiry" placeholder="お問い合わせ内容"></textarea>
+          </fieldset>
+        </div>
+    </div>
+    <button>submit</button>
+    </form>
+  </aside>
+
+<!-- coutact us ここまで -->
+
 		 <!-- footer -->
 		  <footer class="footer">©20xx-2020 xxx shop. All Rights Reserved.</footer>
 		</div>
