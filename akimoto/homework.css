@@ -7,25 +7,15 @@ body{
 
 /*headerスタート*/
 header{
-	height: 110px;
-	background-color: #ffe4e1;
+	height: 70px;
+	background-color: #d2b48c;
 	position: relative;
-}
-
-h1 {
-	color: #d2b48c;
-	font-size: 45px;
-	font-family: 'Londrinas Shadow', cursive;
-	text-align: center;
-	margin-top: 30px;
 }
 
 .header-right{
 	position: absolute;
-	top: 20px;
+	top: 10px;
 	right: 20px;
-	padding: 10px;
-	background-color: #ffe4e1;
 }
 
 .header-right li {
@@ -98,22 +88,45 @@ nav{
 }
 
 
-p {font-size: 20px;
-   color: #8b4513;
-   line-height:300%;
-   font-family: 'Permanent Marker', cursive;
+nav li {
+	font-size: 20px;
+	color: #8b4513;
+	line-height:300%;
+	font-family: 'Permanent Marker', cursive;
 }
 
 /*sideここまで*/
 
 /*main スタート*/
-.main {
+main{
 	height: 500px;
 	width: 800px;
-	background-image: url("IMG_1611.JPG");
+	background-image: url("IMG_2905.JPG");
 	background-size: 100%;
 }
 
+h1 {
+	color: #d2b48c;
+	font-size: 45px;
+	font-family: 'Londrinas Shadow', cursive;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.bg_test-text{
+	display: inline-block;/* インラインブロックにする */
+	padding: 20px 30px;/*余白指定 */
+	background-color: rgba(255, 255, 255, 0.4);/* 背景色指定 */
+	color: #a0522d;
+	font-size: 45px;
+	font-family: 'Londrinas Shadow', cursive;
+	font-weight: 10px;
+}
+
+.bg_test{
+	text-align: center;
+	padding:  70px;
+}
 
 /*picture スタート*/
 .img-box {
@@ -127,15 +140,18 @@ p {font-size: 20px;
 .img-box li img{
 	height: 300px;
 	width: 300px;
-	margin-left: 15px;
-	margin-right: 15px; 
+	margin-left: 10px;
+	margin-right: 5px; 
 	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
 }
 
 span{
 	font-size: 30px;
 	color: #8b4513;
 	font-family: 'Permanent Marker', cursive;
+
 }
 
 /*contact*/
@@ -198,12 +214,11 @@ h2{
 /*---------contact　ここまで-----------*/
 
 /*footer スタート*/
-.footer{
+footer{
 	background-color: #d2b48c;
 	height: 30px;
 	width: 1000px;
-	color: #696969
-	font-size: 3px;
+	color: #696969;
 }
 /*footer ここまで*/
 
@@ -218,7 +233,7 @@ h2{
 /*タブレット用*/
 @media screen and (max-width: 960px){
 body{
-	width: 100%;
+	/*width: 100%;*/
 }
 .img-box{
 	flex-wrap: wrap;
