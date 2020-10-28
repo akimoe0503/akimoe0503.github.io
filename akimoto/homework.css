@@ -32,12 +32,6 @@ header{
 	margin-left: 0;
 }
 
-.twitter{
-	color: #fff;
-}
-
-
-
 /*headerここまで*/
 
 
@@ -63,9 +57,10 @@ nav{
 nav li {
 	font-size: 20px;
 	color: #8b4513;
-	line-height:300%;
+	line-height:5;
 	font-family: 'Permanent Marker', cursive;
 	margin-left: 10px;
+	letter-spacing: 0.1em;
 }
 
 /*sideここまで*/
@@ -76,14 +71,6 @@ main{
 	width: 800px;
 	background-image: url("IMG_2905.JPG");
 	background-size: 100%;
-}
-
-h1 {
-	color: #d2b48c;
-	font-size: 45px;
-	font-family: 'Londrinas Shadow', cursive;
-	text-align: center;
-	margin-top: 30px;
 }
 
 .bg_test-text{
@@ -257,8 +244,8 @@ body {
 	min-width: 375px;
 }
 
-.header-right{
-	display: none;
+.header-right li{
+	margin-left: 10px;
 }
 
 .main{
@@ -283,12 +270,17 @@ body {
 	margin-top: 30px;
 }
 
+.img-box li img{
+	height: 750px;
+	width: 750px;
+}
+
 .img-box li:first-child{
 	margin-top: 0;
 }
 
 .img-box li span{
-	font-size: 40px;
+	font-size: 70px;
 	margin-top: 20px;
 }
 
